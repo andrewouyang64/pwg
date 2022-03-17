@@ -1,0 +1,106 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.container {
+    width: 70%;
+    background-color: bisque;
+    margin: 10px;
+    padding: 15px;
+    color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 15%;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+h1 {
+
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+
+}
+
+h2 {
+    background-color: black;
+    border: 7px solid white;
+    padding: 5px;
+    font-size: x-large;
+    font-weight: lighter;
+    display: flex;
+    text-align: center;
+
+}
+
+.length-rule {
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(68, 71, 71);
+    color: rgb(179, 173, 173);
+    font-size: medium;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: azure;
+}
+
+
+.length {
+    width: 50px;
+}
+
+@media (max-width: 690px) {
+    .btn {
+      font-size: 14px;}
+      h1 {
+        font-size: 20px;
+    }
+  .display {
+        font-size: 20px;
+      }
+    }
+  
+  
+  @media (max-width: 500px) {
+    .btn {
+      font-size: 12px;}
+   .display {
+       font-size: 16px;}
+       h1 {
+           font-size: 16px;
+       }
+       .length-rule {
+           font-size: 12px;
+       }
+
+    }
